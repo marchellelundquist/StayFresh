@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  StayFresh
 //
-//  Created by Marchelle Lundquist on 11/14/15.
+//  Created by Marchelle Lundquist, Mikael Mantis, Victoria Yang, Kevin Park on 11/14/15.
 //  Copyright © 2015 HackHarvard. All rights reserved.
 //
 
@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var textFieldPassword: UITextField!
     
-    @IBOutlet weak var theLabel: UILabel!
+   // @IBOutlet weak var theLabel: UILabel!
     
     @IBAction func verifyMethod(sender: AnyObject)
     {
@@ -24,16 +24,16 @@ class ViewController: UIViewController {
         
         if textFieldUsername.text == usr && textFieldPassword.text == pw
         {
-            theLabel.text = "Credentials correct"
-            theLabel.textColor=UIColor.greenColor()
+          //  theLabel.text = "Credentials correct"
+          //  theLabel.textColor=UIColor.greenColor()
             textFieldUsername.resignFirstResponder()
             textFieldPassword.resignFirstResponder()
             performSegueWithIdentifier("goToFridge", sender: self)
         }
         else
         {
-            theLabel.text = "Credentials incorrect"
-            theLabel.textColor=UIColor.redColor()
+          //  theLabel.text = "Credentials incorrect"
+          //  theLabel.textColor=UIColor.redColor()
             textFieldUsername.resignFirstResponder()
             textFieldPassword.resignFirstResponder()
             
