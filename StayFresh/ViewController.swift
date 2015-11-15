@@ -25,16 +25,26 @@ class ViewController: UIViewController {
         
         if textFieldUsername.text == usr && textFieldPassword.text == pw
         {
+<<<<<<< HEAD
          //   theLabel.text = "Credentials correct"
          //   theLabel.textColor=UIColor.greenColor()
+=======
+          //  theLabel.text = "Credentials correct"
+          //  theLabel.textColor=UIColor.greenColor()
+>>>>>>> c6c875a7b3a339b3f5e7dc03c1fb6d3e6fd68ee0
             textFieldUsername.resignFirstResponder()
             textFieldPassword.resignFirstResponder()
             performSegueWithIdentifier("goToFridge", sender: self)
         }
         else
         {
+<<<<<<< HEAD
          //   theLabel.text = "Credentials incorrect"
          //   theLabel.textColor=UIColor.redColor()
+=======
+          //  theLabel.text = "Credentials incorrect"
+          //  theLabel.textColor=UIColor.redColor()
+>>>>>>> c6c875a7b3a339b3f5e7dc03c1fb6d3e6fd68ee0
             textFieldUsername.resignFirstResponder()
             textFieldPassword.resignFirstResponder()
             
