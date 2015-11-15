@@ -2,10 +2,11 @@
 //  ViewController.swift
 //  StayFresh
 //
-//  Created by Marchelle Lundquist on 11/14/15.
+//  Created by Marchelle Lundquist, Mikael Mantis, Victoria Yang, Kevin Park on 11/14/15.
 //  Copyright © 2015 HackHarvard. All rights reserved.
 //
 
+import Parse
 import UIKit
 
 class ViewController: UIViewController {
@@ -43,6 +44,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let testObject = PFObject(className: "TestObject")
+        testObject["foo"] = "bar"
+        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+            print("Object has been saved.")
+        }
     }
     
     override func didReceiveMemoryWarning() {
