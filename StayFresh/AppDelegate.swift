@@ -2,11 +2,13 @@
 //  AppDelegate.swift
 //  StayFresh
 //
-//  Created by Marchelle Lundquist on 11/14/15.
+//  Created by Marchelle Lundquist, Mikael Mantis, Victoria Yang, Kevin Park on 11/14/15.
 //  Copyright © 2015 HackHarvard. All rights reserved.
 //
 
 import UIKit
+import Parse
+import Bolts
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        // [Optional] Power your app with Local Datastore. For more info, go to
+        // https://parse.com/docs/ios_guide#localdatastore/iOS
+        Parse.enableLocalDatastore()
+        
+        // Initialize Parse.
+        Parse.setApplicationId("D9EIeSq8aiTAxvILh7bfje0qdcOJMkX94HB6sN23",
+            clientKey: "DyyDT8Zc4P9q1cb0RFQJted5pbWh5kHMFKE5HRrH")
+        
+        // [Optional] Track statistics around application opens.
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
         return true
     }
 
