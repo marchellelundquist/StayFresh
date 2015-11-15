@@ -15,8 +15,6 @@
 		3D225D8C1BF7EADC00192701 /* StayFreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D225D8B1BF7EADC00192701 /* StayFreshTests.swift */; };
 		3D225D971BF7EADC00192701 /* StayFreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D225D961BF7EADC00192701 /* StayFreshUITests.swift */; };
 		3D225DA51BF7F7F700192701 /* itemCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D225DA41BF7F7F700192701 /* itemCellCollectionViewCell.swift */; };
-		3DBD3DD91BF84E2B003F5CDF /* Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD3DD81BF84E2B003F5CDF /* Add.swift */; };
-		3DBD3DDB1BF856A7003F5CDF /* AddSectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD3DDA1BF856A7003F5CDF /* AddSectionCollectionViewCell.swift */; };
 		AAF1C5C89CB42C416BCE10AA /* Pods_StayFresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52493AD1B6A1BBD7458B4D2 /* Pods_StayFresh.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,8 +50,6 @@
 		3D225D961BF7EADC00192701 /* StayFreshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayFreshUITests.swift; sourceTree = "<group>"; };
 		3D225D981BF7EADC00192701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D225DA41BF7F7F700192701 /* itemCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = itemCellCollectionViewCell.swift; sourceTree = "<group>"; };
-		3DBD3DD81BF84E2B003F5CDF /* Add.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Add.swift; sourceTree = "<group>"; };
-		3DBD3DDA1BF856A7003F5CDF /* AddSectionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSectionCollectionViewCell.swift; sourceTree = "<group>"; };
 		B52493AD1B6A1BBD7458B4D2 /* Pods_StayFresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StayFresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD190E36EE0E216403BB04D9 /* Pods-StayFresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StayFresh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StayFresh/Pods-StayFresh.debug.xcconfig"; sourceTree = "<group>"; };
 		E9AD43FDA4D88117FBED72DB /* Pods-StayFresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StayFresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-StayFresh/Pods-StayFresh.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,8 +109,6 @@
 				3D225D761BF7EADB00192701 /* AppDelegate.swift */,
 				3D225D781BF7EADB00192701 /* ViewController.swift */,
 				3D225D7A1BF7EADB00192701 /* Main.storyboard */,
-				3DBD3DDA1BF856A7003F5CDF /* AddSectionCollectionViewCell.swift */,
-				3DBD3DD81BF84E2B003F5CDF /* Add.swift */,
 				3D225DA41BF7F7F700192701 /* itemCellCollectionViewCell.swift */,
 				3D225D7D1BF7EADB00192701 /* Assets.xcassets */,
 				3D225D7F1BF7EADB00192701 /* LaunchScreen.storyboard */,
@@ -342,8 +336,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D225DA51BF7F7F700192701 /* itemCellCollectionViewCell.swift in Sources */,
-				3DBD3DDB1BF856A7003F5CDF /* AddSectionCollectionViewCell.swift in Sources */,
-				3DBD3DD91BF84E2B003F5CDF /* Add.swift in Sources */,
 				3D225D791BF7EADB00192701 /* ViewController.swift in Sources */,
 				3D225D771BF7EADB00192701 /* AppDelegate.swift in Sources */,
 			);

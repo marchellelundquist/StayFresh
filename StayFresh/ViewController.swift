@@ -26,11 +26,14 @@ class ViewController: UIViewController {
         if textFieldUsername.text == usr && textFieldPassword.text == pw
         {
 
+
          //   theLabel.text = "Credentials correct"
          //   theLabel.textColor=UIColor.greenColor()
 
           //  theLabel.text = "Credentials correct"
           //  theLabel.textColor=UIColor.greenColor()
+         //   theLabel.text = "Credentials correct"
+         //   theLabel.textColor=UIColor.greenColor()
 
             textFieldUsername.resignFirstResponder()
             textFieldPassword.resignFirstResponder()
@@ -39,11 +42,16 @@ class ViewController: UIViewController {
         else
         {
 
+
          //   theLabel.text = "Credentials incorrect"
          //   theLabel.textColor=UIColor.redColor()
 
           //  theLabel.text = "Credentials incorrect"
           //  theLabel.textColor=UIColor.redColor()
+
+
+         //   theLabel.text = "Credentials incorrect"
+         //   theLabel.textColor=UIColor.redColor()
 
             textFieldUsername.resignFirstResponder()
             textFieldPassword.resignFirstResponder()
