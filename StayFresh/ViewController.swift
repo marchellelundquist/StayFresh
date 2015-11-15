@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  HHWhatever
+//  StayFresh
 //
 //  Created by Marchelle Lundquist on 11/14/15.
 //  Copyright © 2015 HackHarvard. All rights reserved.
